@@ -1,0 +1,61 @@
+[0m11:26:35.738120 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cfc54688710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cfc51995790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cfc51a19ad0>]}
+
+
+============================== 11:26:35.743256 | 496dbb13-4b3d-4e17-b028-579b6d5e9136 ==============================
+[0m11:26:35.743256 [info ] [MainThread]: Running with dbt=1.10.9
+[0m11:26:35.743799 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'use_experimental_parser': 'False', 'write_json': 'True', 'fail_fast': 'False', 'log_format': 'default', 'quiet': 'False', 'log_path': 'logs', 'partial_parse': 'True', 'cache_selected_only': 'False', 'introspect': 'True', 'no_print': 'None', 'target_path': 'None', 'printer_width': '80', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt init dbt_test', 'version_check': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'warn_error': 'None', 'use_colors': 'True', 'profiles_dir': '/home/jasmine/.dbt', 'debug': 'False'}
+[0m11:26:35.765068 [info ] [MainThread]: Creating dbt configuration folder at /home/jasmine/.dbt
+[0m11:26:35.768430 [debug] [MainThread]: Starter project path: /home/jasmine/miniconda3/envs/elt/lib/python3.11/site-packages/dbt/include/starter_project
+[0m11:26:35.777417 [info ] [MainThread]: 
+Your new dbt project "dbt_test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:26:35.777920 [info ] [MainThread]: Setting up your profile.
+[0m11:29:19.922545 [info ] [MainThread]: Profile dbt_test written to /home/jasmine/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:29:19.924529 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 164.24854, "process_in_blocks": "459024", "process_kernel_time": 5.683023, "process_mem_max_rss": "368772", "process_out_blocks": "104", "process_user_time": 9.860578}
+[0m11:29:19.925455 [debug] [MainThread]: Command `dbt init` succeeded at 11:29:19.925321 after 164.25 seconds
+[0m11:29:19.926007 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cfc51e56890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cfc51e56750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cfc560082d0>]}
+[0m11:29:19.926501 [debug] [MainThread]: Flushing usage events
+[0m11:29:21.322068 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:43:34.342378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b871dcdaad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b871dd2b950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b871e2a6e90>]}
+
+
+============================== 10:43:34.348652 | a3cd41e7-921f-4d05-bd29-421f6ea7c41e ==============================
+[0m10:43:34.348652 [info ] [MainThread]: Running with dbt=1.10.9
+[0m10:43:34.349464 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'use_colors': 'True', 'no_print': 'None', 'cache_selected_only': 'False', 'version_check': 'True', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'quiet': 'False', 'log_path': 'logs', 'log_format': 'default', 'fail_fast': 'False', 'partial_parse': 'True', 'static_parser': 'True', 'warn_error': 'None', 'debug': 'False', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt init austin_bikeshare_demo', 'profiles_dir': '/home/jasmine/.dbt', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'use_experimental_parser': 'False'}
+[0m10:43:34.378650 [debug] [MainThread]: Starter project path: /home/jasmine/miniconda3/envs/elt/lib/python3.11/site-packages/dbt/include/starter_project
+[0m10:43:34.391023 [info ] [MainThread]: 
+Your new dbt project "austin_bikeshare_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:43:34.392048 [info ] [MainThread]: Setting up your profile.
+[0m10:45:04.225111 [info ] [MainThread]: Profile austin_bikeshare_demo written to /home/jasmine/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:45:04.226229 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 91.24402, "process_in_blocks": "342616", "process_kernel_time": 4.991355, "process_mem_max_rss": "369220", "process_out_blocks": "96", "process_user_time": 10.250033}
+[0m10:45:04.227119 [debug] [MainThread]: Command `dbt init` succeeded at 10:45:04.226966 after 91.25 seconds
+[0m10:45:04.227650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b871dcc7d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b872249fc50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b872248e490>]}
+[0m10:45:04.228152 [debug] [MainThread]: Flushing usage events
+[0m10:45:05.289258 [debug] [MainThread]: An error was encountered while trying to flush usage events
